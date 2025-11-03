@@ -52,6 +52,7 @@ void genTwo(){ //找出陣列0的地方 挑一個變成空白
 }
 void setup(){
     size(410,410); //讓邊線漂亮一點
+    myPort=new Serial(this,"COM6",9600);
 }
 void draw(){
     background(188,174,162); //色彩用滴管 吸範例的圖
@@ -68,3 +69,4 @@ void draw(){
         }
      }
 }
+
